@@ -1,4 +1,7 @@
 package com.gerenciamento.Livros.Repository;
 
-public interface LivroRepository {
+import com.gerenciamento.Livros.Entity.LivroEntity;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LivroRepository extends JpaRepository <LivroEntity, Long> {
 }

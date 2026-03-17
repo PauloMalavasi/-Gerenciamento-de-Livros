@@ -3,6 +3,8 @@ package com.gerenciamento.Livros.Entity;
 import jakarta.persistence.*;
 
 @Entity
+@Table(name = "tb_livro")
+
 public class LivroEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
