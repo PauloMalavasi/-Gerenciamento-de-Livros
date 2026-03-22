@@ -15,11 +15,8 @@ public class LivroEntity {
     @Column(name = "anoLancamento")
     private Integer anoPublicacao;
 
-    public LivroEntity(Long id, String titulo, String autor, Integer anoPublicacao) {
-        this.id = id;
-        this.titulo = titulo;
-        this.autor = autor;
-        this.anoPublicacao = anoPublicacao;
+    public LivroEntity(){
+
     }
 
     public Long getId() {
